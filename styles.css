@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("images/background.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgb(238, 238, 220);
+	background-blend-mode: multiply;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto 0;
+}
+
+.container {
+	background-color: #fff;
+	width: 400px;
+	border-radius: 15px;
+}
+
+main {
+	text-align: center;
+	margin: auto;
+	width: 80%;
+}
+
+main h3 {
+	margin: 20px 0;
+}
+
+main h4 {
+	margin-bottom: 10px;
+}
+
+main p {
+	color: gray;
+	margin: auto;
+	width: 80%;
+	margin-bottom: 15px;
+}
+
+.plan {
+	background-color: lightskyblue;
+	border-radius: 5px;
+	display: flex;
+	padding-top: 5px;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.plan a {
+	color: darkblue;
+}
+
+.plan a:hover {
+	font-weight: bold;
+}
+
+footer {
+	text-align: center;
+}
+
+footer p {
+	color: gray;
+	margin-bottom: 10px;
+}
+
+.btn {
+	background-color: blue;
+	padding: 10px 30px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+	.container {
+		background-color: #fff;
+		width: 280px;
+		border-radius: 15px;
+		margin-top: 20px;
+	}
+}
