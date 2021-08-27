@@ -10,15 +10,14 @@ body {
 	background-size: cover;
 	background-color: rgb(215, 235, 222);
 	background-blend-mode: multiply;
-	background-position: center;
+	background-position: center center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: auto 0;
+	height: 100vh;
 }
 
 .container {
-	margin-top: 150px;
 	background-color: #fff;
 	width: 400px;
 	border-radius: 20px;
@@ -43,24 +42,33 @@ main h4 {
 }
 
 main p {
-	color: gray;
+	color: hsl(224, 23%, 55%);
 	margin: auto;
 	width: 80%;
 	margin-bottom: 15px;
 }
 
 .plan {
-	background-color: lightskyblue;
+	background-color: hsl(225, 100%, 98%);
 	border-radius: 5px;
 	display: flex;
-	padding-top: 5px;
+	padding: 10px;
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 20px;
 }
 
+.plan-left {
+	display: flex;
+	align-items: center;
+}
+
+.icon {
+	margin-right: 10px;
+}
+
 .plan a {
-	color: darkblue;
+	color: blue;
 }
 
 .plan a:hover {
@@ -72,17 +80,22 @@ footer {
 }
 
 footer p {
-	color: gray;
-	margin-bottom: 10px;
+	color: hsl(224, 23%, 55%);
+	margin-bottom: 30px;
+}
+
+footer p:hover {
+	font-weight: bold;
 }
 
 .btn {
-	background-color: blue;
+	background-color: hsl(245, 75%, 52%);
 	padding: 10px 30px;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
+	color: #fff;
 }
 
 .btn:hover {
